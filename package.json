@@ -13,8 +13,8 @@
     "source-map-support": "^0.5.3"
   },
   "devDependencies": {
-    "electron": "1.8.2",
-    "electron-builder": "^20.0.6",
+    "electron": "1.8.3",
+    "electron-builder": "^20.4.1",
     "electron-webpack": "^1.13.0",
     "webpack": "^3.11.0"
   },
