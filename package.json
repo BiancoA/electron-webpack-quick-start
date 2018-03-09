@@ -9,6 +9,7 @@
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "dependencies": {
+    "sharp": "0.20.0",
     "source-map-support": "^0.5.3"
   },
   "devDependencies": {
@@ -16,6 +17,12 @@
     "electron-builder": "^20.0.6",
     "electron-webpack": "^1.13.0",
     "webpack": "^3.11.0"
+  },
+  "build": {
+    "asar": true,
+    "asarUnpack": [
+      "**/node_modules/sharp/**/*"
+    ]
   },
   "resolutions": {
     "webpack-sources": "1.0.1"
